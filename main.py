@@ -59,4 +59,5 @@ while True:
     elif event == 'Sobre':
         sg.popup('Guilherme Santos Guimarães\nGustavo Piroupo Neumann')
 
+
 window.close()
