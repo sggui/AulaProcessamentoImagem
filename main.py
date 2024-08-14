@@ -55,7 +55,6 @@ while True:
                 image.save(save_path)
                 sg.popup('Arquivo salvo com sucesso!')
         else:
-
             sg.popup('Nenhuma imagem carregada para salvar.')
     elif event == 'Sobre':
         sg.popup('Guilherme Santos Guimarães\nGustavo Piroupo Neumann')
