@@ -18,7 +18,7 @@ def open_image(filename):
     image_path = filename
     image_atual = Image.open(filename)    
     
-    # Extracting important metadata
+    # Extracting important metadat
     if image_atual._getexif():
         for k, v in image_atual._getexif().items():
             tag_name = ExifTags.TAGS.get(k)
@@ -109,3 +109,4 @@ while True:
         sg.popup('Desenvolvido por [Seu Nome] - BCC 6º Semestre')
 
 window.close()
+
