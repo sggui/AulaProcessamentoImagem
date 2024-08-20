@@ -1,0 +1,2 @@
+pysimplegui==4.60.5
+pillow
